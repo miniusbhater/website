@@ -7,6 +7,15 @@ body {
     margin: 0; 
     background-color: #e6ccff;
 }
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;   
+    text-align: center;      
+    padding: 2em;   
+    padding-top: 10em;         
+}
+
 nav ul{
     display: flex;
     align-items: center;
@@ -30,4 +39,15 @@ nav a:visited {
 }
 nav {
     background-color: #d4b3e6;
-    padding: 10px 20px;       }
+    padding: 10px 20px;    
+   }
+   .text-container h3 {
+    margin: 0.3em;
+}
+.cat-container {
+    margin-top: 2em;   
+}
+
+.cat-container img {
+    max-width: 100%;           
+}
