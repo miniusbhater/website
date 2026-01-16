@@ -15,14 +15,6 @@ main {
     padding: 2em;   
     padding-top: 10em;         
 }
-main2 {
-    display: flex;
-    justify-content: center; 
-    align-items: flex-start;   
-    text-align: center;      
-    padding: 2em;   
-    padding-top: 5em;         
-}
 
 .text-container {
     max-width: 800px;
@@ -35,16 +27,11 @@ main2 {
     margin: 0 auto;
     padding: 2em;
     text-align: center;
-    text-decoration: none;
    
 }
 .text-container-contact a {
     color: black;        
     text-decoration: none;
-}
-
-.text-container-contact :visited {
-    color: black;
 }
 
 nav ul{
@@ -82,6 +69,6 @@ nav {
 }
 .text-container-contact a:link,
 .text-container-contact a:visited {
-    color: black !important;
-    text-decoration: none !important;
+    color: black;
+    text-decoration: none;
 }
