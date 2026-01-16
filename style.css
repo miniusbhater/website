@@ -27,13 +27,104 @@ main {
     margin: 0 auto;
     padding: 2em;
     text-align: center;
-   
 }
 .text-container-contact a {
     color: black;        
     text-decoration: none;
 }
 
+.text-container-mystuff {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+   
+}
+
+.text-container-mystuff a:link,
+.text-container-mystuff a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.text-container-software {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+   
+}
+
+.text-container-software a:link,
+.text-container-software a:visited {
+    color: black;
+    text-decoration: none;
+}
+.text-container-socials {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+   
+}
+
+.text-container-socials a:link,
+.text-container-socials a:visited {
+    color: black;
+    text-decoration: none;
+}
+.text-container-mods {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+   
+}
+
+.text-container-mods a:link,
+.text-container-mods a:visited {
+    color: black;
+    text-decoration: none;
+}
+.text-container-SP2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+   
+}
+
+.text-container-SP2 a:link,
+.text-container-SP2 a:visited {
+    color: black;
+    text-decoration: none;
+}
+.text-container-gt {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+   
+}
+
+.text-container-gt a:link,
+.text-container-gt a:visited {
+    color: black;
+    text-decoration: none;
+}
+.text-container-bs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+   
+}
+
+.text-container-bs a:link,
+.text-container-bs a:visited {
+    color: black;
+    text-decoration: none;
+}
 nav ul{
     display: flex;
     align-items: center;
