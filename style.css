@@ -16,6 +16,13 @@ main {
     padding-top: 10em;         
 }
 
+.text-container {
+    text-align: center;   
+    max-width: 800px;     
+    margin: 0 auto;      
+    padding: 2em;       
+}
+
 nav ul{
     display: flex;
     align-items: center;
