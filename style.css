@@ -80,3 +80,8 @@ nav {
     max-width: 100%;
     border-radius: 15px;
 }
+.text-container-contact a:link,
+.text-container-contact a:visited {
+    color: black !important;
+    text-decoration: none !important;
+}
