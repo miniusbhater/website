@@ -23,6 +23,9 @@
   <div class="text-container-mystuff">
     <h1 style="font-size: 4rem;">Minecraft server status</h1>
      <h1 id="mc-status">Checking status</h1>
+     <br>
+     <br>
+     <pre id="status-server"></pre>
 
   </div>     
 </main>
@@ -46,6 +49,11 @@
   setInterval(updateStatus, 30000);
 </script>
 
+<script>
+  fetch('/minecraft/status/status.txt')
+    .then(response => response.text())
+    .then(text => {document.getElementById('status-server').textContent = text;});
+</script>
 
 </body>
 </html>

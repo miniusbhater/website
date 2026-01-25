@@ -1,1 +1,1 @@
-Server may be unstable
+Server should be running fine
