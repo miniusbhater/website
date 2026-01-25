@@ -1,1 +1,1 @@
-Server should be running fine!
+Server should be running fine
